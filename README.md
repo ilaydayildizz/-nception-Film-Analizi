@@ -1,4 +1,4 @@
-# 🧠 Inception Yorum Analizi
+#  Inception Yorum Analizi
 **Youtube linki:** https://youtu.be/Asob7XW-3Gs
 
 **"Bir fikir, virüs gibidir. Dayanıklıdır, oldukça bulaşıcıdır."** - *Inception*
@@ -161,7 +161,7 @@ Her segmentin filme yaklaşımı farklıdır:
 ### Segmentlerin Kelime Tercihleri
 ![Segment Kelimeleri](ozel_segment_kelimeleri.png)
 
-### 📈 Segment Analiz Detayları ve Çıkarımlar
+###  Segment Analiz Detayları ve Çıkarımlar
 
 #### 🟢 Segment 0 (2145 yorum) - "Sadık Hayranlar"
 *   **Pozitif:** `best`, `ever`, `one` öne çıkıyor → Bu segmentte kullanıcılar en yüksek kaliteyi ve genel beğeniyi önemsiyor.
