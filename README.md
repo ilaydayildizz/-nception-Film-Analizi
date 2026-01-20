@@ -1,4 +1,5 @@
 # 🧠 Inception Yorum Analizi
+**Youtube linki:** https://youtu.be/Asob7XW-3Gs
 
 **"Bir fikir, virüs gibidir. Dayanıklıdır, oldukça bulaşıcıdır."** - *Inception*
 
