@@ -263,6 +263,10 @@ Bu çalışma göstermiştir ki **Inception**, sadece "izlenip geçilen" bir aks
 *   **Görsel Efektlerin Daha Fazla Öne Çıkması:** Görsel ve işitsel kalite zaten yüksek, ancak segmentlerde senaryo derinliği öne çıkmış; bazı izleyiciler görselliği daha fazla vurgulayan fragman veya tanıtımları tercih edebilir.
 *   **Müzik ve Atmosfer:** `Zimmer`, `soundtrack`, `music` çok olumlu yorum almış; film müziği ve atmosfer öğeleri ile etkileşimi artıracak ek içerikler (ör. film müziği videoları, sahne analizleri) hazırlanabilir.
 *   **Karakter ve Finale Odaklanma:** `Cobb`, `end`, `story` gibi kelimeler öne çıkıyor; karakterlerin motivasyonları ve final sahneleri üzerine izleyici rehberliği veya açıklayıcı içerik pazarlamada kullanılabilir.
+*   **Sosyal Medya İçerikleri:** İnstgram,Twitter vb platformlarda kısa kesit videolarıyla çarpıcı açıklamalarla yeni izleyicilerin dikkatini çekilebilir.
+*   **Film Etkinlikleri:** Film festivalleri vs düzenleyerek,çeşitli dijital reklamlar,bilboardlar düzenleyerek filmi unutturmama yeni izleyicilerde merak uyandırma hissi sağlanmalıdır.
+*    **TV de Gösterim:** Film yıldönümlerinde TV de gösterim yapılarak fanların tekrar izlenmesi sağlanabilir.
+  
 
 > **Özet:** Filmde en iyi yapılan şey senaryo derinliği ve karakter/film müziği ile görsel atmosferin kalitesi. Daha iyi olabilmesi için karmaşık hikaye noktalarını biraz daha anlaşılır kılmak, görsel ve müzik deneyimini pazarlama ve ek içeriklerle desteklemek faydalı olur.
 
