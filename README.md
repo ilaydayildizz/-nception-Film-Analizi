@@ -20,6 +20,8 @@ Aşağıda, proje boyunca gerçekleştirilen işlemlerin özeti ve elde edilen g
     *   Emoji, link ve gereksiz karakter temizliği yapıldı.
     *   Tüm metinler küçük harfe çevrildi (normalization).
     *   Stopwords (ve, ile, ama vb.) çıkarıldı ve kelimeler köklerine indirildi (lemmatization).
+    *   Tüm yorumlarda dil tespiti yapıldı.
+    *   İngilizce olmayan yorumlar ingilizceye çevrildi.
 3.  **Duygu Analizi (Sentiment Analysis):** İki aşamalı bir doğrulama sistemi kullanıldı.
     *   `duygu_analiz.py`: İlk etapta Kural Tabanlı (Rule-Based) yöntem ve karmaşık vakalar için LLaMA modeli ile analiz yapıldı ve doğruluk %75-½80 arası saptandı.
     *   `duygu3.py`: Nihai sonuçlar için **VADER** (Valence Aware Dictionary and sEntiment Reasoner) algoritması kullanılarak tüm veri seti Pozitif, Negatif ve Nötr olarak etiketlendi.Doğruluk oranında artış meydana geldi ve %85 oldu. Raporlanan grafikler bu scriptin çıktılarına dayanmaktadır.
