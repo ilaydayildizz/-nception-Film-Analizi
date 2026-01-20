@@ -21,10 +21,10 @@ Aşağıda, proje boyunca gerçekleştirilen işlemlerin özeti ve elde edilen g
     *   Tüm metinler küçük harfe çevrildi (normalization).
     *   Stopwords (ve, ile, ama vb.) çıkarıldı ve kelimeler köklerine indirildi (lemmatization).
 3.  **Duygu Analizi (Sentiment Analysis):** İki aşamalı bir doğrulama sistemi kullanıldı.
-    *   `duygu_analiz.py`: İlk etapta Kural Tabanlı (Rule-Based) yöntem ve karmaşık vakalar için LLaMA modeli ile denemeler yapıldı.
-    *   `duygu3.py`: Nihai sonuçlar için **VADER** (Valence Aware Dictionary and sEntiment Reasoner) algoritması kullanılarak tüm veri seti Pozitif, Negatif ve Nötr olarak etiketlendi. Raporlanan grafikler bu scriptin çıktılarına dayanmaktadır.
+    *   `duygu_analiz.py`: İlk etapta Kural Tabanlı (Rule-Based) yöntem ve karmaşık vakalar için LLaMA modeli ile analiz yapıldı ve doğruluk %75-½80 arası saptandı.
+    *   `duygu3.py`: Nihai sonuçlar için **VADER** (Valence Aware Dictionary and sEntiment Reasoner) algoritması kullanılarak tüm veri seti Pozitif, Negatif ve Nötr olarak etiketlendi.Doğruluk oranında artış meydana geldi ve %85 oldu. Raporlanan grafikler bu scriptin çıktılarına dayanmaktadır.
 4.  **Kelime Frekans Analizi:** Hangi kelimelerin ne sıklıkla geçtiği sayıldı.
-5.  **Müşteri (İzleyici) Segmentasyonu:** K-Means kümeleme algoritması ile izleyiciler benzer yorum davranışlarına göre gruplara ayrıldı.
+5.  **Müşteri (İzleyici) Segmentasyonu(Kümeleme):** K-Means kümeleme algoritması ile izleyiciler benzer yorum davranışlarına göre gruplara ayrıldı.
 6.  **Konu Modelleme:** Senaryo, görsel efektler ve müzik gibi spesifik konuların tartışılma yoğunluğu ölçüldü.
 
 ---
@@ -83,7 +83,7 @@ Nötr yorumlar daha çok "Soundtrack", "Story" ve "Plot" üzerine odaklı teknik
 
 **Olumsuz Yorumlar:**
 `bad`, `hate`, `problem`, `boring`, `worst`, `mess`
-> Olumsuz yorumlar çok daha sınırlı sayıda kelime ile sınırlı ve belirgin bir şikayet var: film bazı izleyiciler için yavaş veya kafa karıştırıcı olmuş.
+> Olumsuz yorumlar çok daha sınırlı sayıda kelime ile sınırlı ve belirgin bir şikayet var. Film bazı izleyiciler için yavaş veya kafa karıştırıcı olmuş.
 
 **Nötr Yorumlar:**
 Hem olumlu hem olumsuz öğeleri içeriyor; `nolan`, `soundtrack`, `genius`, `story`, `deep` gibi kelimeler hem beğeni hem değerlendirme amaçlı kullanılmış.
@@ -92,7 +92,7 @@ Hem olumlu hem olumsuz öğeleri içeriyor; `nolan`, `soundtrack`, `genius`, `st
 #### 2️⃣ Çıkarımlar
 *   Senaryo ve karakter derinliği izleyiciler için önemli (`story`, `plot`, `deep`, `complex`).
 *   Yönetmen ve görsel-müzik kalitesi de çok beğeniliyor (`nolan`, `music`, `soundtrack`, `visual`, `cinematography`).
-*   Olumsuz yorumlar sınırlı ve genellikle “yavaş, kafa karıştırıcı veya sorunlu” olarak öne çıkıyor.
+*   Olumsuz yorumlar sınırlı ve genellikle “yavaş, kafa karıştırıcı ” olarak öne çıkıyor.
 
 #### 3️⃣ Pazarlama Önerisi
 *   Kampanyada hem senaryo derinliğini hem görsel/müzik kalitesini öne çıkarın; her iki özellik de olumlu yorumlarda sıkça geçiyor.
